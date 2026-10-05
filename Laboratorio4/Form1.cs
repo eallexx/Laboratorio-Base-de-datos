@@ -141,7 +141,7 @@ namespace Laboratorio4
                     todoOK = true;
                 }
             }
-            return true;
+            return false;
         }
 
         private void DGV_CellClick(object sender, DataGridViewCellEventArgs e)
