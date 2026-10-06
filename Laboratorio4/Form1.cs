@@ -153,6 +153,7 @@ namespace Laboratorio4
             txtNombre.Text = Convert.ToString(fila.Cells["Nombre"].Value);
             txtPrecio.Text = Convert.ToDecimal(fila.Cells["Precio"].Value).ToString();
             txtCantidad.Text = Convert.ToInt32(fila.Cells["Cantidad"].Value).ToString();
+            
 
             btnAgregar.Enabled = false;
         }
